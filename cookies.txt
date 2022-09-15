@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.balmediaid.com	TRUE	/	FALSE	1999999999	CAKEPHP	cd8f2c936517779156bce71260c4fbfe
+
