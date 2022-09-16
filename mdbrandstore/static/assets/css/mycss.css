@@ -1,0 +1,82 @@
+.kate-overlay{
+    height: 300px;
+    align-items: center;
+    display: table;
+    width: 250px;
+    background: rgba(0,0,0, 0.6);
+}
+    .kate{
+    height: 300px;
+    align-items: center;
+    display: table;
+    width: 250px;
+    //padding: 50px 0px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+    .kate p{
+    vertical-align: middle;
+    display: table-cell;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    padding: 25px;
+}
+
+@media only screen and (max-width: 767px) {
+.kate-overlay{
+  height: 200px;
+  width: 150px;
+}
+.kate{
+  height: 200px;
+  width: 150px;
+}
+}
+.zoom {
+//padding: 50px;
+background-color: green;
+transition: transform .2s;
+//width: 200px;
+//height: 200px;
+//margin: 0 auto;
+}
+
+.zoom:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+transition: 1s;
+}
+
+.zoom2 {
+//padding: 50px;
+background-color: green;
+transition: transform .2s;
+//width: 200px;
+//height: 200px;
+//margin: 0 auto;
+}
+
+.zoom2:hover {
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari 3-8 */
+transform: scale(1.5);
+transition: 1.5s;
+}
+
+.keung:hover{
+background: #c7953e;
+border-radius: 20px;
+}
+
+.keung:hover .keung3 > img {
+-webkit-transform: rotateY(180deg);
+-ms-transform: rotateY(180deg);
+-o-transform: rotateY(180deg);
+transform: rotateY(180deg);
+transition: 1s;
+}
+
+
+

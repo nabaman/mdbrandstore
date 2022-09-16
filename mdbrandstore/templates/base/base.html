@@ -1,0 +1,94 @@
+{% load static %}
+<!DOCTYPE html>
+<html class="wide wow-animation desktop landscape rd-navbar-static-linked" lang="id" class="">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="UTF-8">
+
+    <title>MDBrandStore </title>
+    <meta name="keywords" content="MDBrandStore">
+    <meta name="description" content="MDBrandStore">
+
+    <meta name="googlebot" content="index,follow">
+    <meta name="googlebot-news" content="index,follow">
+    <meta name="robots" content="index,follow">
+    <meta name="Slurp" content="all">
+    <meta property="fb:app_id" content="102373112636697">
+    <meta property="og:title" content="MDBrandStore   ">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="MDBrandStore">
+
+    <meta property="og:image:type" content="image/jpeg"/>
+    <meta property="og:image:width" content="620"/>
+    <meta property="og:image:height" content="413"/>
+    <meta property="og:url" content="i{{url}}">
+
+    <link rel="canonical" href="{{url}}">
+
+    <meta property="og:description" content="MDBrandStore">
+    <meta name="news_keywords" content="MDBrandStore">
+    <link rel="shortlink" href="index.html">
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}"/>
+    <link rel="manifest" href="{% static 'images/site.webmanifest.json' %}">
+    <meta name="msapplication-TileColor" content="#FFCB01">
+    <meta name="theme-color" content="#fff">
+
+    {% include 'snippets/style.html' %}
+</head>
+<body>
+<!-- Preloader -->
+<div class="preloader d-flex align-items-center justify-content-center">
+    <div class="preloader-circle"></div>
+    <div class="preloader-img">
+        <img src="#" alt="">
+    </div>
+</div>
+
+{% include "snippets/navbar.html" %}
+
+{% include 'section/slider.html' %}
+
+{% include 'section/about.html' %}
+
+{% include 'section/kategori.html' %}
+
+
+
+<svg data-aos="zoom-in-up" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100"
+     version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(244, 233, 215, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(244, 233, 215, 1)" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+          d="M0,80L60,75C120,70,240,60,360,61.7C480,63,600,77,720,83.3C840,90,960,90,1080,81.7C1200,73,1320,57,1440,48.3C1560,40,1680,40,1800,43.3C1920,47,2040,53,2160,55C2280,57,2400,53,2520,58.3C2640,63,2760,77,2880,78.3C3000,80,3120,70,3240,70C3360,70,3480,80,3600,85C3720,90,3840,90,3960,75C4080,60,4200,30,4320,15C4440,0,4560,0,4680,5C4800,10,4920,20,5040,35C5160,50,5280,70,5400,76.7C5520,83,5640,77,5760,75C5880,73,6000,77,6120,71.7C6240,67,6360,53,6480,45C6600,37,6720,33,6840,41.7C6960,50,7080,70,7200,73.3C7320,77,7440,63,7560,61.7C7680,60,7800,70,7920,76.7C8040,83,8160,87,8280,76.7C8400,67,8520,43,8580,31.7L8640,20L8640,100L8580,100C8520,100,8400,100,8280,100C8160,100,8040,100,7920,100C7800,100,7680,100,7560,100C7440,100,7320,100,7200,100C7080,100,6960,100,6840,100C6720,100,6600,100,6480,100C6360,100,6240,100,6120,100C6000,100,5880,100,5760,100C5640,100,5520,100,5400,100C5280,100,5160,100,5040,100C4920,100,4800,100,4680,100C4560,100,4440,100,4320,100C4200,100,4080,100,3960,100C3840,100,3720,100,3600,100C3480,100,3360,100,3240,100C3120,100,3000,100,2880,100C2760,100,2640,100,2520,100C2400,100,2280,100,2160,100C2040,100,1920,100,1800,100C1680,100,1560,100,1440,100C1320,100,1200,100,1080,100C960,100,840,100,720,100C600,100,480,100,360,100C240,100,120,100,60,100L0,100Z"></path>
+</svg>
+
+{% include 'section/product-area.html' %}
+
+{% include 'section/galeri.html' %}
+
+{% include 'section/paralax-contact.html' %}
+
+{% include 'section/footer.html' %}
+
+<div id="qlwapp"
+     class="qlwapp-free qlwapp-button qlwapp-bottom-left qlwapp-all qlwapp-rounded qlwapp-js-ready desktop">
+    <div class="qlwapp-container">
+        <a class="qlwapp-toggle" data-action="open"
+           href="#"
+           target="_blank">
+            <i class="qlwapp-icon qlwapp-whatsapp-icon"></i>
+            <i class="qlwapp-close" data-action="close">×</i>
+            <span class="qlwapp-text">Chat with us on WhatsApp</span>
+        </a>
+    </div>
+</div>
+
+{% include 'snippets/scripts.html' %}
+</body>
+</html>

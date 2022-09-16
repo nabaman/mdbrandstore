@@ -1,0 +1,31 @@
+{% load static %}
+<!-- ##### All Javascript Files ##### -->
+<!-- jQuery-2.2.4 js -->
+<script src="{% static 'assets/js/jquery/jquery-2.2.4.min.js' %}"></script>
+<!-- Popper js -->
+<script src="{% static 'assets/js/bootstrap/popper.min.js' %}"></script>
+<!-- Bootstrap js -->
+<script src="{% static 'assets/js/bootstrap/bootstrap.min.js' %}"></script>
+<!-- All Plugins js -->
+<script src="{% static 'assets/js/plugins/plugins.js' %}"></script>
+<!-- Active js -->
+<script src="{% static 'assets/js/active5ed3.js' %}"></script>
+<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+<script src="{% static 'cdnjs/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js' %}"></script>
+<script src="{% static 'assets/js/lightgallery.js' %}"></script>
+<script>
+        $('.test-popup-link').magnificPopup({
+            type: 'image'
+        });
+
+</script>
+
+<script src="{% static 'unpkg/aos/dist/aos.js' %}"></script>
+
+<script>
+  AOS.init();
+  lightGallery(document.getElementById('video-gallery'), {
+    videojs: true
+});
+</script>
+<script src="{% static 'assets/js/myjs.js' %}"></script>
